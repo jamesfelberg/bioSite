@@ -32,14 +32,16 @@ figcaption {
 }
 
 html {
-    background-color: rgba(245, 117, 5);
+    background-color: lightgreen;
 }
 
 .gallery-item {
     border-style: solid;
-    border-color: rgba(63, 168, 34);
+    border-color:black);
     border-radius: 15px;
     padding: 5px;
+    width: 100%;
+    height: auto;
 }
 
 quote {
