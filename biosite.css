@@ -37,7 +37,7 @@ html {
 
 .gallery-item {
     border-style: solid;
-    border-color:black);
+    border-color:black;
     border-radius: 15px;
     padding: 5px;
     width: 100%;
@@ -46,4 +46,19 @@ html {
 
 quote {
     font-style: italic;
+}
+
+.card {
+    position: relative;
+    text-align: center;
+    margin-left: 20px;
+    padding: 25px;
+    width: 400px;
+    height: 400px;
+    background-color: silver;
+    perspective: 1000px;
+    aspect-ratio: 9/16;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 20%);
 }
